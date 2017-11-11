@@ -1,4 +1,4 @@
-1. Clonar o repositorio da API.
+1. Clonar o repositorio do Front.
 2. Instalar composer caso precise.
 3. Rodar composer.phar para fazer download dos itens obrigatórios ao projeto.
 4. Para iniciar o servidor PHP da API rodar o camando na raiz do projeto abaixo no seu terminal:
