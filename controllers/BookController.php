@@ -56,7 +56,7 @@ class BookController extends Controller
 
     public function actionAdmin()
     {
-        $url = 'http://localhost:8000/sort/sort/admin';
+        $url = 'http://localhost:8000/sort/sort/get-sort-books';
 
         $model = Service::load()->curl_get($url, $_GET);
 
@@ -96,7 +96,7 @@ class BookController extends Controller
 
     public function actionAdminDataTables()
     {
-        $url = 'http://localhost:8000/sort/sort/admin';
+        $url = 'http://localhost:8000/sort/sort/get-books';
         $model = Service::load()->curl_get($url, $_GET);
 
         return $this->render('adminDataTables', [
